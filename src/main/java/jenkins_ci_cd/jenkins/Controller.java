@@ -20,4 +20,10 @@ public class Controller {
     {
         return "Hi Shubham";
     }
+
+    @GetMapping("/welcome")
+    public String fun2()
+    {
+        return "Hi Shubham, welcome";
+    }
 }
