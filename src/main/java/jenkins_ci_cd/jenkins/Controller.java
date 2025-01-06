@@ -26,4 +26,9 @@ public class Controller {
     {
         return "Hi Shubham, welcome";
     }
+    @GetMapping("/home")
+    public String fun3()
+    {
+        return "This is home";
+    }
 }
